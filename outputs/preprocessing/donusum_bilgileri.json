@@ -1,0 +1,51 @@
+{
+  "source_file": "outputs/tuik_2024_81_il_birlesik.csv",
+  "source_sha256": "f3011d92711a4664a25ba8879210c54bc20e6721aa810a893a568185ae679636",
+  "output_file": "outputs/preprocessing/iller_olceklendirilmis.csv",
+  "row_count": 81,
+  "feature_count": 5,
+  "feature_order": [
+    "kisi_basi_gsyh_tl",
+    "issizlik_orani",
+    "istihdam_orani",
+    "ortalama_egitim_suresi",
+    "nufus_yogunlugu"
+  ],
+  "identifier_columns_not_for_model": [
+    "il_kodu",
+    "il_adi"
+  ],
+  "excluded_feature": "isgucune_katilma_orani",
+  "transform_order": [
+    "StandardScaler"
+  ],
+  "scaler_class": "StandardScaler",
+  "scaler_parameters_by_feature_order": {
+    "mean": [
+      387261.5507076173,
+      8.418908562438643,
+      48.2187879992642,
+      9.006754162038765,
+      136.0447398924815
+    ],
+    "scale": [
+      121298.57847220126,
+      2.6503920952974305,
+      4.880931109224391,
+      0.5691311086874077,
+      327.99425803425555
+    ],
+    "variance": [
+      14713345139.376766,
+      7.024578258815104,
+      23.82348849299444,
+      0.3239102188757579,
+      107580.2333034418
+    ]
+  },
+  "versions": {
+    "pandas": "2.3.3",
+    "numpy": "2.4.0",
+    "scikit_learn": "1.8.0"
+  }
+}
